@@ -1,0 +1,416 @@
+# Phrasebook file
+# Comment lines begin with hashmark '#'
+# Entry format:
+# Foreign language phrase / local language phrase"
+# á é í ó ú ñ ü ¿ ¡ 
+
+#! section='1'
+cual / which /pq
+quien / who /pq
+cuando / when /pq
+por qué / why /pq
+dónde / where /pq
+señor / man, Mr., Sir / g
+señora / woman, Mrs. / g
+baño / bath /n
+el avión /airplane /n
+corazón / heart /n
+Repita, por favor / Repeat, please /g
+de nada / you are welcome  /g
+hasta mañana / see you tomorrow /g
+De dónde eres tú? / Where do you come from? /qc
+la casa / the house /n
+el hombre / the man /n
+ellos son, ellas son / they are /vi
+Buenas días / Good morning /g
+No sé / I don't know /vg
+Qué es? / What is it /qv
+Cómo se escribe? / How do you write it? /cv
+hasta luego / see you later /g
+Tengo una pregunta / I have a question /qvn
+Los saludos / greetings  /g
+hasta pronto / see you soon  /g
+el es / he is /vi
+las despedidas / farewells /n
+el abogado / the lawyer /n
+perro / dog /n
+buenas noches / good evening or good night /g
+perdón / pardon me (after doing something)  /g
+Hola / hello /g
+ustedes es / you (formal, plural) are /vi
+Yo soy / I am /vi
+la niña / the girl /n
+el muchacho / the guy /n
+Quién? / who? /qc
+nosotros somos / we are /vi
+la gente / people /n
+usetedes son / you (plural) are /vi
+Tú eres / you are /vi
+la mujer / the woman /n
+Qué? / what? /cq
+Más despacio, por favor / Slower, please  
+gracias / thank you /g
+No comprendo / I don't understand  /v
+adiós / good-bye /g
+el niño / the boy /n
+por favor / please /g
+si / yes or if /g
+ella es / she is /vi
+Buenas tardes / good afternoon  /g
+con permiso / excuse me (before doing something) /g
+Cómo se dice? / How do you say? /qv
+la muchacha / the gal /n
+hasta la vista / so long /g
+una empleada / an employee /n
+en un banco / in a bank /pn
+gerente / manager /n
+secretario, secretaria / secretary /n
+asesor, asesora / consultant /n
+abogado, abogada / lawyer /n
+contador, contadora / accountant /n
+médico, médica / medical doctor /n
+soy de Canada / I am from Canada /vi
+soy Canadiense / I am Canadian  /vi
+me llamo Sylvester / I am called Sylvester  /v
+gerente del supermercado / manager of the supermarket /pn 
+la esposa / the wife /n
+el jefe / the boss /n
+blanca, blanco / white /a
+negro / black /a
+gato, gata / cat /n
+el carro / the car /n
+grande / big /a
+alto / tall /a
+caro / expensive /a 
+frío / cold /a
+pequeño / small /a
+bajo / short /a
+barato / inexpensive /a
+caliente / hot /a
+loma / hill /n
+el télefono / the telephone /n
+clase / class /n
+el restaurante / the restaurant /n 
+el diccionario / the dictionary /n
+cucaracha / cockroach  /n
+el día / the day /n
+el problema / the problem /n
+mesa / table  /n
+la radio / the radio /ni
+el idioma / the language /ni
+el tema / the topic /ni
+el clima / the climate  /ni
+la mano / the hand /ni
+arból / tree /n
+las mesas / the tables /n
+los meses / the months /n
+los arboles / the trees /n
+el curso / the course  /n
+palabra / word /n
+siguientes / following 
+agregar / to add 
+el adjetivo / the adjective  /n
+hablar / to speak /v
+yo hablo / I speak  /v
+tú hablas, usted hablan/ you speak  /v
+el habla / he speaks   /v
+nosotros hablamos / we speak   /v
+ellos hablan, ellas hablan, ustedes hablan / they speak, you (formal) speak  /v
+bailar / to dance / v
+yo bailo / I dance  /v
+tú bailas, usted bailan/ you dance  /v
+el baila / he dances   /v
+nosotros bailamos / we dance   /v
+ellos bailan, ellas bailan, ustedes bailan / they dance, you (formal) dance  /v
+también / also /a
+tampoco / not also  /a
+el español / spanish /na
+el inglés / english /na
+el francés / french  /na
+el alemán / german   /na
+el japonés / japanese /na
+el chino / chinese  /na
+el presidente / the president  /n
+mexicano / mexican   /na
+muy / very /a
+muchos / many /a
+familia / family /n
+mamá / mother / n
+cómo esta Ustede? / how are you (formal) /g
+las ventas / sales /n
+yo también / me too/g
+lección / lesson/ n
+discusión /discussion / n
+
+#! section='2'
+quiero / I want /v
+quieres / You want (singular, informal)/ v
+quiere / he wants /v
+quieremos / we want /v
+quieren / they, you want /v
+estudiar / to study / v
+Qué tal? / How goes? /g
+una compañia / a company /n
+con /with /c
+sin / without /c
+hasta /until / c
+Quiero presentarte a /I want to introduce you to /g
+un café / a coffee /n
+el té /  a tea /n
+la leche / milk /n
+el azúcar /sugar /n
+el agua / water /n
+el agua mineral / mineral water /n
+el hielo / ice/ n
+el vino tinto /red wine /n
+el vino blanca /white wine / n
+la cuenta /the bill /n
+la cerveza / beer /n
+pagar / to pay / v
+yo pago / I pay  /v
+tú pagas, usted pagan/ you pay  /v
+el paga / he pays   /v
+nosotros pagamos / we pay   /v
+ellos pagan, ellas pagan, ustedes pagan / they pay, you (formal) pay  /v
+tabajar / to work / v
+yo tabajo / I work  /v
+tú tabajas, usted tabajan/ you work  /v
+el tabaja / he works   /v
+nosotros tabajamos / we work   /v
+ellos tabajan, ellas tabajan, ustedes tabajan / they work, you (formal) work  /v
+comprar/ to buy/ v
+yo compro / I buy  /v
+tú compras, usted compran/ you buy  /v
+el compra / he buys   /v
+nosotros compramos / we buy   /v
+ellos compran, ellas compran, ustedes compran / they buy, you (formal) buy  /v
+amigo / male friend /n
+amiga / female friend/ n
+probablemente / probably/ a
+permanentemente / permanently / a
+posiblemente / possibly / a
+usualmente / usually /a
+especialmente / specially / a
+rápidamente /rapidly /a
+generalmente / generally /a
+normalmente / normally /a
+lentamente / slowly /a
+cuánto /how much /q
+cuesta / it costs /v
+cuestan /they cost / v
+nunca /never /a
+un placer / a pleasure/ n
+el precio / the price / n
+la cena /dinner/ n
+la billete / paper money / n
+la moneda / the coin or currency /n
+la billetera / wallet /n
+el dinero / money / n
+la propina / the tip/ n
+más o menos / more or less / a
+un dólare / a dollar/n
+tomar / to take /v
+yo tomo / I take  /v
+tú tomas, usted toman/ you take  /v
+el toma / he takes   /v
+nosotros tomamos / we take   /v
+ellos toman, ellas toman, ustedes toman / they take, you (formal) take  /v
+sacar / to take out / v
+yo saco / I take out  /v
+tú sacas, usted sacan/ you take out  /v
+el saca / he takes out   /v
+nosotros sacamos / we take out   /v
+ellos sacan, ellas sacan, ustedes sacan / they take out, you (formal) take out  /v
+dejar / to leave something/ v
+el numéro / number / n
+el dirección / direction/ n
+el apellido /surname / n
+el profesión / profession /n
+mi, mis / my / a
+tu, tus / your (informal singular)/a
+su o sus /Your (formal)/a
+su, sus / his, her/ a
+nuestro, nuestros, nuestros, nuestras / ours /a
+la tienda / the shop / n
+el hermano / brother /n
+la hermana / sister / n
+el coche / car / n
+uno / one /#
+dos /two /#
+tres /three / #
+cuatro / four /#
+cinco / five /#
+seis /six /#
+siete / seven / #
+ocho / eight /#
+nueve / nine /#
+diez / ten/ #
+once /eleven /#
+doce / twelve /#
+trece / thirteen /#
+catorce / fourteen /#
+quince / fifteen/ #
+dieciséis / sixteen /#
+diecisiete / seventeen /#
+dieciocho / eighteen /#
+veinte / twenty / #
+veintiuno / twenty-one / #
+veinticuatro / twenty-four / #
+treinta / thirty / #
+treinta y uno / thirty-one / #
+treinta y ocho / thirty-eight / #
+cuarenta y nueve / forty-nine /#
+cincuenta y dos / fifty-two /#
+sesenta y siete / sixty-seven / #
+setenta y seis / seventy-six / #
+ochenta y cinco / eighty-five /#
+noventa y tres / ninety-three /#
+uno cien / one hundred / #
+doscientos /two hundred /#
+trescientos / three hundred /#
+cuatrocientos / four hundred / #
+quinientos / five hundred /#
+seiscientos / six hundred/ #
+setescientos / seven hundred/#
+ochocientos /eight hundred /#
+novocientos/ nine hundred/ #
+mil / thousand /#
+ciento dos/one hundred and two /#
+ciento uno /one hundred and one /#
+ciento noventa y dos / one hundred and ninety-two/#
+mil uno / one thousand and one /#
+mil ciento dos / eleven hundred and two/#
+dos mil ciento noventa y dos/ two thousand one hundred and ninety-two /#
+lo mismo / the same /n
+seguir / to continue/ vi
+la fábrica / the factory /n
+el taxi / the taxi / n
+el centro / the center / n
+un bar / a bar /n
+#! section='3'
+gordo /fat / a
+ugly / feo / a
+guapa / attractive /a
+la carne / meat /n
+el pollo /chicken /n
+el pescado / fish /n
+la fruta / fruit /n
+los huevos / the eggs /n
+el queso / cheese /n
+el jamón / ham /n
+el arroz / rice /n
+las verduras / vegetables /n
+el pan / bread /n
+¿Qué hora es? / what time is it / q
+es la una / it's one oclock / #
+son las dos / it's two oclock / #
+son las quatro de la tarde / it's four in the afternoon / #
+son las cinco de la manaña / it's five in the morning / #
+son las once / it's eleven oclock / #
+son las doces / it's twelve oclcock /#
+la media noche / midnight / #
+el medio dia / midday / #
+es la una y media / it's half past twelve / #
+son las dos y cuarto / it's quarter past two / #
+son las tres y cinco /it's five past three / #
+son las siete menos cuarto / it's quarter to seven /#
+son las once menos cuarto / it's quarter to eleven /#
+son las doce en punto / it's twelve on the dot/ #
+comer / to eat / v
+como / I eat /v
+comes / you eat (familiar) / v
+come / he (she, you formal) eats / v
+comemos / we eat /v
+comen / they (you plural formal) eat
+beber / to drink / v
+correr / to run/ v
+escuchar / to listen /v
+la fiesta / the party /n
+saludable / healthy / a
+el hotel /the hotel / n
+la vendadora / the saleswoman /n
+la clienta / the customer / n
+siempre /always / a
+puedo / i can / v
+ayudarla / be of help / v
+la talla / the size / n
+tener / to have /vi
+tengo / I have / vi
+tienes / you (familiar) have / vi
+tiene / he (she, you formal) has
+tenemos / we have / vi
+tienen / they (you formal plural) have / vi
+la ropa / clothing / n
+la falda / skirt/ n
+la tarjeta de crédito / credit card / n 
+la tarjeta de débito / debit card / n
+cerca de / close to /a
+costar / to cost / v
+el pueblo / the town / n
+ambos / both / p
+wl campo / the countryside /n
+el traje / the suit / n
+los zapatos / shoes /n
+un carro deportivo / sports car / n
+el alumno / student / n
+menor / younger, smaller /a
+mayor / older, bigger / a
+la semana / week / n
+un año /  a year /n
+tengo cuarenta años / I am forty years old / vi#
+el abrigo / coat/ n
+los gafas, los lentes, los anteojos  / glasses/n
+la busa / blouse / n
+las botas / the boots / n
+la camisa / shirt /n
+la camiseta / T-shirt /n
+la chaqueta / jacket / n
+el chaleco / the vest / n
+la corbata / tie / n
+el pantalón / pants /n
+el suéter / the sweater / n
+los tacones / high heels / n
+el vestido / the dress / n
+el es de lana / it is made of wool /np
+es de seda / is made of silk /np
+algodón / cotton /nel lino / linen /n
+cuero / leather / n
+colores / colours / n
+azul / blue / a
+rijo / red / a
+amarillo / yellow/ a
+verde / green / a
+cafe /coffee coloured / a
+nosotros tenemos los zapatoes marrones / we have brown shoes / vian
+gris / grey /a
+la bosilla / the pocket / n
+el cielo /the sky /n
+el sol / the sun /n
+el ojo / the eye /n
+la sangre / blood /n
+el pelo / hsir / n
+la nieve / snow /n
+el fuego / fire /n
+jubilado / retired /a
+el tio / uncle /n
+la tia / aunt /n
+el primo / (male) cousine/ n
+la prima / (female) cousin
+el sobrino / nephew / n
+la sobrina / neice / n
+el ama de casa /housewife / n
+vivir / to live / v
+vivo / I live / v
+tu vives / you (informal) live / v
+el (ella, usted) / he (she, you formal) lives / v
+nosotros vivimos /  we live /v
+ellos (ellas, Ustedes) viven / they (you plural formal) live/ v 
+cenar / to eat dinner / v
+almorzar / to eat lunch / v
+el almuerzo / lunch / n
+el desayuno / breakfast / n
+desayunar / to eat breakfast / v
+
+# á é í ó ú ñ ü ¿ ¡ 
+# some useful characters for cut and paste
+# á é í ó ú ñ ü ¿ ¡ 
