@@ -1,14 +1,14 @@
-import pyglet
-from pyglet.window import key
-#from copy import copy
-from numpy.random import rand, choice, shuffle
-import os
 import codecs
-from gtts import gTTS
+import os
 import time
-from tempfile import TemporaryFile
 
+from tempfile import NamedTemporaryFile
 
+import pyglet
+from gtts import gTTS
+# from copy import copy
+from numpy.random import choice, shuffle
+from pyglet.window import key
 
 global update_interval,qit
 global interrogator
@@ -102,21 +102,14 @@ def get_options():
 
 def say(phrase,lang):
     tts = gTTS(text=phrase, lang=lang)
-    tmpfileroot = 'oral_tempfile'
-    #tmpfile = tmpfileroot+str(time.time())+".mp3"
-    tmpfile = tmpfileroot+".mp3"
-    tts.save(tmpfile)
-    #print("Playing",phrase)
-    music = pyglet.resource.media(tmpfile, streaming=False)
-    #music = pyglet.resource.media(tmpfile, streaming=True)
-    music.play()
-    while os.path.exists(tmpfile):
-        try:
-            os.remove(tmpfile) #remove temporary file
-        except: pass
-    #os.remove(tmpfile) #remove temporary file
-    
-    return music.duration
+    temp_file = NamedTemporaryFile(prefix="oral_", suffix=".mp3", delete=False)
+    tts.write_to_fp(temp_file)
+    temp_file.close()
+    sound = pyglet.media.load(temp_file.name, streaming=False)
+    sound.play()
+    os.remove(temp_file.name)
+
+    return sound.duration
 
 
 window = pyglet.window.Window(resizable=True,caption='Oral')
