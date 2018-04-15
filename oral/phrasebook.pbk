@@ -1,4 +1,5 @@
 # Phrasebook file
+# Intended to work with oralpy3.py
 # Comment lines begin with hashmark '#'
 # Entry format:
 # Foreign language phrase / local language phrase"
