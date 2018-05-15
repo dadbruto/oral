@@ -1073,7 +1073,7 @@ me queda / it fits me / v
 #! section='12'  # reflexive verbs
 la edad / the age / n
 liviana / light / n
-los informes / the rports /n
+los informes / the reports /n
 estrñs / stress / n
 
 #! section='13'  # simple past, more clothing 
@@ -1094,7 +1094,7 @@ Nosotros vivimos (pretérito simple)/ we lived / v
 Ellos (ellas, Ustedes) vivieron / they lived / v
 ¿Qué hice ayer? / What did he do yesterday? / vi
 ¿Qué hiciste ayer? / What did you do the day before yesterday? / vi
-¿qué hizó ayer? / what did you do the day before yesterday? / vi
+¿qué hizó ayer? / what did he do the day before yesterday? / vi
 ¿Qué hicieron hace dos meses? / What did they do the last two months? / vi
 Yo fui (ser,ir)/ I went, I was (simple past)/ vi
 Tú fuiste  (ser,ir)/ You went, you were (simple past)/ vi
@@ -1102,7 +1102,7 @@ el fue  (ser,ir)/ he was, he went (simple past)/ vi
 nosotros fuimos  (ser,ir)/ we were, we went (simple past)/ vi
 ellos fueron  (ser,ir)/ they were, they went (simple past)/ vi
 A qué hora volviste? / When did you come back? / v
-Dónde fue la reunion? / Whewre was the meeting? / v
+Dónde fue la reunion? / Where was the meeting? / v
 encantadores / charming / a
 para llevar / for take-out / a
 tratar / to treat / v
@@ -1112,36 +1112,36 @@ Tú tuviste /You had / vi
 El tuvo /He had / vi
 Nosotros tuvimos /We had / vi
 Ellos tuvieron / They had / vi
-Yo estuve (estar) / I was / vi 
-Tú estuviste (estar) / You were / vi 
-El estuvo (estar) / He was / vi 
-Nosotros estuvimos (estar) / We were / vi 
-Ellos estuvieron (estar) / They were / vi 
-Yo quise / I wanted / vi 
-Tú quisiste  / You wanted / vi 
-El quiso  / He wanted / vi 
-Nosotros quisimos  / We wanted / vi 
-Ellos quisieron  / They wanted / vi 
-Yo puse / I put (past) / vi 
-Tú pussiste  / You put (past) / vi 
-El puso  / He put (past)  / vi 
-Nosotros pusimos  / We put (past) / vi 
-Ellos pusieron  / They put (past) / vi 
-Yo traje / I brought / vi 
-Tú trajiste  / You brought / vi 
-El trajo  / He brought / vi 
-Nosotros trajimos  / We brought / vi 
-Ellos trajeron  / They brought / vi 
-Yo vine / I came / vi 
-Tú viniste  / You came / vi 
-El vino  / He came / vi 
-Nosotros vinimos  / We came / vi 
-Ellos vinieron  / They came / vi 
-Yo dije / I said / vi 
-Tú dijiste  / You said / vi 
-El dijo  / He said / vi 
-Nosotros dijimos  / We said / vi 
-Ellos dijeron  / They said / vi 
+Yo estuve (estar) / I was (transient)/ vi 
+Tú estuviste (estar) / You were (transient)/ vi 
+El estuvo (estar) / He was (transient)/ vi 
+Nosotros estuvimos (estar) / We were (transient)/ vi 
+Ellos estuvieron (estar) / They were (transient)/ vi 
+Yo quise / I wanted (simple past)/ vi 
+Tú quisiste  / You wanted (simple past)/ vi 
+El quiso  / He wanted (simple past)/ vi 
+Nosotros quisimos  / We wanted (simple past)/ vi 
+Ellos quisieron  / They wanted (simple past)/ vi 
+Yo puse / I put (simple past) / vi 
+Tú pusiste  / You put (simple past) / vi 
+El puso  / He put (simple past)  / vi 
+Nosotros pusimos  / We put (simple past) / vi 
+Ellos pusieron  / They put (simple past) / vi 
+Yo traje / I brought  (simple past)/ vi 
+Tú trajiste  / You brought  (simple past)/ vi 
+El trajo  / He brought  (simple past)/ vi 
+Nosotros trajimos  / We brought  (simple past)/ vi 
+Ellos trajeron  / They brought  (simple past)/ vi 
+Yo vine / I came  (simple past)/ vi 
+Tú viniste  / You came  (simple past)/ vi 
+El vino  / He came  (simple past)/ vi 
+Nosotros vinimos  / We came  (simple past)/ vi 
+Ellos vinieron  / They came  (simple past)/ vi 
+Yo dije / I said  (simple past)/ vi 
+Tú dijiste  / You said  (simple past)/ vi 
+El dijo  / He said  (simple past)/ vi 
+Nosotros dijimos  / We said  (simple past)/ vi 
+Ellos dijeron  / They said  (simple past)/ vi 
 La dueña / the owner / n
 cortadas / cut (adjective) /a
 los aros /rings /n
@@ -1171,7 +1171,7 @@ sirvieron / they served / vi
 pude / I was able to / vi
 pudiste / you were able to / vi
 pudo / he was able to /vi
-pudimops / we were able to / vi
+pudimos / we were able to / vi
 pudieron / they were able to / vi
 cambiar / to exchange / v
 la madrugada / the early morning / n
@@ -1228,7 +1228,7 @@ El era / He was (imperfect, permanent) / vi
 eran / They were (imperfect, permanent / vi
 Yo estaba / I was (imperfect, temporary) / vi
 estabas / You were (imperfect, temporary) / vi
-estaba / He was (imperfect, temporary) / vi
+El estaba / He was (imperfect, temporary) / vi
 estabamos / We were (imperfect, temporary) / vi
 estaban / They were (imperfect, temporary / vi
 iba / I was going / vi
