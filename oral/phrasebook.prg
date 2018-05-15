@@ -1038,117 +1038,117 @@ no me importa / I couldn't give a damn / 0
 me conviene / it suits me / 0 
 me queda / it fits me / 0 
 la edad / the age / 0 
-liviana / light / 0 
-los informes / the rports / 0 
+liviana / light / 1 
+los informes / the rports / 1 
 estrñs / stress / 0 
-Yo hablé / I spoke / 0 
+Yo hablé / I spoke / 1 
 Tú hablaste / you spoke / 0 
-El(ella,Usted) habló / he spoke / 0 
+El(ella,Usted) habló / he spoke / 1 
 Nosotros hablamos (pretérito simple) / we spoke / 0 
-Ellos (ellas, Ustedes) hablaron / they spoke / 0 
-Yo comí / I ate / 0 
-Tú comiste / you ate / 0 
+Ellos (ellas, Ustedes) hablaron / they spoke / 1 
+Yo comí / I ate / 1 
+Tú comiste / you ate / 1 
 El(ella,Usted) comió / he ate / 0 
-Nosotros comimos / we ate / 0 
-Ellos (ellas, Ustedes) comieron / they ate / 0 
+Nosotros comimos / we ate / 1 
+Ellos (ellas, Ustedes) comieron / they ate / 2 
 Yo viví / I lived / 0 
 Tú viviste / you lived / 0 
 El(ella,Usted) vivió / he lived / 0 
-Nosotros vivimos (pretérito simple) / we lived / 0 
+Nosotros vivimos (pretérito simple) / we lived / 2 
 Ellos (ellas, Ustedes) vivieron / they lived / 0 
 ¿Qué hice ayer? / What did he do yesterday? / 0 
 ¿Qué hiciste ayer? / What did you do the day before yesterday? / 0 
-¿qué hizó ayer? / what did you do the day before yesterday? / 0 
-¿Qué hicieron hace dos meses? / What did they do the last two months? / 0 
-Yo fui (ser,ir) / I went, I was (simple past) / 0 
-Tú fuiste  (ser,ir) / You went, you were (simple past) / 0 
+¿qué hizó ayer? / what did you do the day before yesterday? / 1 
+¿Qué hicieron hace dos meses? / What did they do the last two months? / 2 
+Yo fui (ser,ir) / I went, I was (simple past) / 2 
+Tú fuiste  (ser,ir) / You went, you were (simple past) / 3 
 el fue  (ser,ir) / he was, he went (simple past) / 0 
-nosotros fuimos  (ser,ir) / we were, we went (simple past) / 0 
-ellos fueron  (ser,ir) / they were, they went (simple past) / 0 
+nosotros fuimos  (ser,ir) / we were, we went (simple past) / 2 
+ellos fueron  (ser,ir) / they were, they went (simple past) / 1 
 A qué hora volviste? / When did you come back? / 0 
-Dónde fue la reunion? / Whewre was the meeting? / 0 
-encantadores / charming / 0 
+Dónde fue la reunion? / Whewre was the meeting? / 1 
+encantadores / charming / 2 
 para llevar / for take-out / 0 
-tratar / to treat / 0 
-aumentar / to gain (weight) / 0 
+tratar / to treat / 2 
+aumentar / to gain (weight) / 1 
 Yo tuve / I had / 0 
-Tú tuviste / You had / 0 
-El tuvo / He had / 0 
-Nosotros tuvimos / We had / 0 
-Ellos tuvieron / They had / 0 
-Yo estuve (estar) / I was / 0 
-Tú estuviste (estar) / You were / 0 
-El estuvo (estar) / He was / 0 
-Nosotros estuvimos (estar) / We were / 0 
-Ellos estuvieron (estar) / They were / 0 
+Tú tuviste / You had / 1 
+El tuvo / He had / 1 
+Nosotros tuvimos / We had / 2 
+Ellos tuvieron / They had / 1 
+Yo estuve (estar) / I was / 1 
+Tú estuviste (estar) / You were / 2 
+El estuvo (estar) / He was / 2 
+Nosotros estuvimos (estar) / We were / 2 
+Ellos estuvieron (estar) / They were / 3 
 Yo quise / I wanted / 0 
-Tú quisiste / You wanted / 0 
-El quiso / He wanted / 0 
-Nosotros quisimos / We wanted / 0 
-Ellos quisieron / They wanted / 0 
-Yo puse / I put (past) / 0 
-Tú pussiste / You put (past) / 0 
+Tú quisiste / You wanted / 2 
+El quiso / He wanted / 1 
+Nosotros quisimos / We wanted / 1 
+Ellos quisieron / They wanted / 2 
+Yo puse / I put (past) / 1 
+Tú pussiste / You put (past) / 1 
 El puso / He put (past) / 0 
-Nosotros pusimos / We put (past) / 0 
-Ellos pusieron / They put (past) / 0 
+Nosotros pusimos / We put (past) / 2 
+Ellos pusieron / They put (past) / 2 
 Yo traje / I brought / 0 
-Tú trajiste / You brought / 0 
+Tú trajiste / You brought / 3 
 El trajo / He brought / 0 
-Nosotros trajimos / We brought / 0 
-Ellos trajeron / They brought / 0 
-Yo vine / I came / 0 
-Tú viniste / You came / 0 
-El vino / He came / 0 
+Nosotros trajimos / We brought / 1 
+Ellos trajeron / They brought / 1 
+Yo vine / I came / 2 
+Tú viniste / You came / 1 
+El vino / He came / 2 
 Nosotros vinimos / We came / 0 
-Ellos vinieron / They came / 0 
-Yo dije / I said / 0 
+Ellos vinieron / They came / 1 
+Yo dije / I said / 1 
 Tú dijiste / You said / 0 
 El dijo / He said / 0 
 Nosotros dijimos / We said / 0 
-Ellos dijeron / They said / 0 
-La dueña / the owner / 0 
-cortadas / cut (adjective) / 0 
+Ellos dijeron / They said / 1 
+La dueña / the owner / 2 
+cortadas / cut (adjective) / 1 
 los aros / rings / 0 
 la sartén / the frying pan / 0 
-el plato / the dish / 0 
+el plato / the dish / 1 
 esplendorosa / spndourous / 0 
-abundancia / abundance / 0 
+abundancia / abundance / 1 
 lo cocción / the cooking / 0 
-fue creada / it was created / 0 
-pasar / to pass by / 0 
+fue creada / it was created / 1 
+pasar / to pass by / 1 
 Pedir / To ask, request / 0 
 descubrir / to discover / 0 
-freir / to fry / 0 
+freir / to fry / 1 
 Agregar / To add (to) / 0 
 ayer / yesterday / 0 
-antes de ayer (anteayer) / the day before yesterday / 0 
+antes de ayer (anteayer) / the day before yesterday / 1 
 la semana pasada / last week / 0 
 el jueves pasado / last Thursday / 0 
-hace dos meses / two months ago / 0 
-Servi / i served / 1 
-serviste / You (singular, informal) served / 0 
-sirvió / he served / 1 
+hace dos meses / two months ago / 1 
+Servi / i served / 2 
+serviste / You (singular, informal) served / 1 
+sirvió / he served / 3 
 nosotros servimos / We served / 1 
-sirvieron / they served / 0 
-pude / I was able to / 0 
-pudiste / you were able to / 0 
-pudo / he was able to / 0 
-pudimops / we were able to / 0 
+sirvieron / they served / 1 
+pude / I was able to / 3 
+pudiste / you were able to / 1 
+pudo / he was able to / 1 
+pudimops / we were able to / 1 
 pudieron / they were able to / 0 
-cambiar / to exchange / 1 
+cambiar / to exchange / 2 
 la madrugada / the early morning / 0 
 alta velocidad / high speed / 2 
 conducir / to drive / 1 
 los recuerdos / the souvenirs / 0 
 quedarse (alojarse) / to stay / 1 
-alojarse (quedarse) / To stay / 0 
+alojarse (quedarse) / To stay / 1 
 estar decidido a / to be decided to / 0 
 decidirse a / to make up one's mind to / 0 
 la vanguardia / the avant garde / 0 
 desenfrenada / frantic / 0 
 la jornada / the working day / 0 
-abarcar / to cover (as in topics) / 0 
-desarollarse / to take place, to unfold / 0 
+abarcar / to cover (as in topics) / 2 
+desarollarse / to take place, to unfold / 1 
 El concierto / the conceret / 0 
 el estadio / the stadium / 1 
 la entrada / the entrance / 0 
@@ -1159,48 +1159,48 @@ Regalar / To give (as a gift) / 0
 presentar / to show / 3 
 haver cola / to line up / 0 
 endenderse / to turn on / 0 
-aparecer / to appear / 0 
-durar / to last / 1 
-Yo hablaba / I was speaking (used to speak) / 0 
+aparecer / to appear / 1 
+durar / to last / 2 
+Yo hablaba / I was speaking (used to speak) / 1 
 hablabas / you were speaking (used to speak) / 0 
 El hablaba / he was speaking (used to speak) / 0 
 hablabamos / we were speaking (used to speak) / 2 
 hablaban / they were speaking (used to speak) / 0 
-Yo comía / I was eating (used to eat) / 0 
-comías / you were eating (used to eat) / 0 
+Yo comía / I was eating (used to eat) / 2 
+comías / you were eating (used to eat) / 1 
 Ella comía / she was eating (used to eat) / 0 
 comíamos / we were eating (used to eat) / 1 
 comían / they were eating (used to eat) / 0 
-Yo vivía / I was living (used to live) / 0 
-vivías / you were living (used to live) / 0 
+Yo vivía / I was living (used to live) / 1 
+vivías / you were living (used to live) / 1 
 Ella vivía / she was living (used to live) / 0 
-vivíamos / we were living (used to live) / 1 
-vivían / they were living (used to live) / 1 
+vivíamos / we were living (used to live) / 2 
+vivían / they were living (used to live) / 2 
 Yo veía / I was seeing / 1 
 veías / You were seeing / 0 
-veía / He was seeing / 0 
+veía / He was seeing / 1 
 veíamos / We were seeing / 1 
-veían / They were seeing / 1 
+veían / They were seeing / 2 
 era / I was (imperfect, permanent) / 0 
-eras / You were (imperfect, permanent) / 0 
+eras / You were (imperfect, permanent) / 1 
 El era / He was (imperfect, permanent) / 0 
 éramos / We were (imperfect, permanent) / 0 
 eran / They were (imperfect, permanent / 0 
 Yo estaba / I was (imperfect, temporary) / 1 
 estabas / You were (imperfect, temporary) / 0 
-estaba / He was (imperfect, temporary) / 0 
+estaba / He was (imperfect, temporary) / 1 
 estabamos / We were (imperfect, temporary) / 0 
 estaban / They were (imperfect, temporary / 0 
 iba / I was going / 0 
-ibas / You were going / 0 
+ibas / You were going / 2 
 Ella iba / She was going / 1 
 íbamos / We were going / 0 
-iban / They were going / 0 
+iban / They were going / 2 
 mientras / while / 0 
 durante / during / 0 
 al mismo tiempo que / at the same time as / 0 
 antes de / before / 0 
-el canto / the singing / 0 
+el canto / the singing / 1 
 los párajos / the birds / 0 
 las galletas / the cookies / 0 
 la arena / the sand / 0 
@@ -1209,14 +1209,14 @@ el balneario / the seaside resort / 0
 el ruido / the noise / 0 
 el asado / the barbeque / 0 
 casero / home-made / 0 
-Soñar / To dream / 0 
+Soñar / To dream / 1 
 las sierras / the mountains / 0 
 lleno / full / 0 
 la granja / the farm / 0 
 la iglesia / the church / 0 
 refrescante / refreshing / 0 
 combinar / to combine / 0 
-Compartir / To share / 0 
+Compartir / To share / 1 
 el coñac / gognac / 0 
 el licor / the liqueur / 0 
 el aguardiente / the liquor / 0 

@@ -44,7 +44,7 @@ def get_options():
     parser = OptionParser()
     parser.add_option("-f", "--phrasebookfile", dest="phrasebook_file_root",default='phrasebook',
                       help="base name of phrasebook file (must have extension '.pbk'), default='phrasebook'", metavar="FILE")
-    parser.add_option("-s", "--section",
+    parser.add_option("-s", "--section",action="append",
                       dest="selected_section", default=None,
                       help="sections to concentrate on, if any, default None")
     parts_of_speech_help_string = \
@@ -101,7 +101,16 @@ def get_options():
         options.selected_parts_of_speech = []
     else:
         options.selected_parts_of_speech = set(list(options.selected_parts_of_speech))
-
+    # print("type(options.selected_section)",type(options.selected_section))
+    # if type(options.selected_section) is list:
+        # for i in range(len(options.selected_section)):
+            # options.selected_section[i] = str(options.selected_section[i])
+    #else:
+        
+            
+    #options.selected_section = eval(options.selected_section)
+    #print("options.selected_section",options.selected_section)
+    #print("type(options.selected_section)",type(options.selected_section))
     return options
 
 
@@ -543,11 +552,12 @@ class Testbook(object):
         return s
     def selectkeys(self, sections, categories):
         #select the 'es' keys corresponding to specified sections and categories
+        #print("sections",sections)
         #print("categories",categories)
         if sections is not None and  type(sections) not in (list,tuple):  # may be a single item and not a list or set
             sections_set = [sections]
         else:
-            sections_set = None
+            sections_set = sections
         categories_set = set(categories)
         #print("sections_set",sections_set)
         selected_keys = list(self.es2en.keys())
@@ -555,11 +565,14 @@ class Testbook(object):
             selected_keys =  [k  for k in selected_keys \
             if self.parts_of_speech[k] is None or categories_set.intersection(self.parts_of_speech[k])]
         # print("selected_keys so far",selected_keys)
-        # print("sections set",sections_set)
+        #print("sections set",sections_set)
         # print("sections_set is not None set",sections_set is not None)
         if sections_set is not None and len(sections_set) > 0: 
+            #print("self.es2section[k]",self.es2section[k])
+            #print("  selected_keys before",selected_keys)
             selected_keys =  [k for k in selected_keys \
             if self.es2section[k] in sections_set]
+            #print("    selected_keys after",selected_keys)
         return selected_keys
         
 def write_progressbook(interrogator):   
@@ -593,6 +606,7 @@ phrasebook = Testbook(filename_root=o.phrasebook_file_root, verbosity=0,summary=
 if phrasebook is None:  myfail("Cannot find phrasebook file.")      
 
 # Select question pool
+#print ("o.selected_section",o.selected_section)
 selected_keys = phrasebook.selectkeys(o.selected_section,o.selected_parts_of_speech) # working subset of phrasebook
 #print("wsk",selected_keys)
 working_set_size = len(selected_keys)

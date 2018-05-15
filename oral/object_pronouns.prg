@@ -1,6 +1,6 @@
 Quiere Usted venir conmigo? / Do you (formal) want to come with me? / 2 
 Tienes que viajar con ella. / You have to travel with her. / 0 
-No voy contigo. / I am not going with you. / 4 
+No voy contigo. / I am not going with you. / 5 
 Quieres compartirla con nosotros? / Do you want to share the food with us? / 1 
 No tiene que trabajar contigo. / He doesn't have to work with you. / 2 
 Yo lo llevo siempre conmigo. / I always take a bag with me. / 1 
@@ -20,11 +20,11 @@ Can you write the letters? / Puedes escribirlas? / 0
 Lo tienes que invitar, or Tienes que invitarlo. / You must invite him. / 0 
 La lees? / Do you read the homework? / 0 
 Lo baño una vez por semana. / I bathe the dog once a week. / 0 
-Les explico mañana. / I explain to them tomorrow. / 0 
+Les explico mañana. / I explain to them tomorrow. / 1 
 El me dice. / He tells me. / 0 
 Papá les lee. / Dad reads to the children. / 0 
 Yo se la compro contigo. / I buy a present for Ricardo with you. / 0 
-Se la compramos. / We buy a present for Ricardo. / 0 
+Se la compramos. / We buy a present for Ricardo. / 1 
 Se la traigo / I bring the letter for them. / 4 
 Nos lo lee. / He reads the book to us. / 0 
 Me lo cuentan. / They relate the story to me. / 0 
