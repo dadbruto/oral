@@ -1,9 +1,10 @@
 # Phrasebook file
-# Intended to work with oralpy3.py
 # Comment lines begin with hashmark '#'
 # Entry format:
-# Foreign language phrase / local language phrase"
-# á é í ó ú ñ ü ¿ ¡ 
+# Foreign language phrase / local language phrase" /phrase or word categories
+# á é í ó ú ñ ü ¿ ¡   Some useful characters for cut and paste while editing this file
+
+#! instructions='Translate the word or phrase'
 
 #! section='1'
 cual / which /pq
@@ -288,6 +289,7 @@ la fábrica / the factory /n
 el taxi / the taxi / n
 el centro / the center / n
 un bar / a bar /n
+
 #! section='3'
 gordo /fat / a
 ugly / feo / a
@@ -411,6 +413,862 @@ almorzar / to eat lunch / v
 el almuerzo / lunch / n
 el desayuno / breakfast / n
 desayunar / to eat breakfast / v
+
+#! section='4'
+Yo vivo / I  live /v
+Tú vives / you live /v
+El (ella, usted) vive / he (she, you) lives /v
+Nosotros vivimos / We live /v
+Ellos (ellas, Ustedes) viven /they live  /v
+Cerca de / Close to/ a
+lejos de /far from /a
+Jubilado(a) /Retired /a
+el Gobierno / the government /n
+la hija del medio / the middle daughter / na
+Menor /Younger / a
+Mayor / Older /a
+Hermano / Brother / n
+Hermana /Sister / n
+el tío / the uncle / n
+Tia / Aunt /n
+primo /cousin (m)/n
+prima / cousin (f) / n
+hijo / son /n
+hija / daughter /n
+mi sobrino / my nephew / n
+tu sobrina / my niece / n
+esposo o esposa / husband or wife /n
+un ama de casa / a housewife /n
+de la / of the (f )/ p
+del / of the (m)/ p
+occupadas /busy / a
+estamos occupados / we are busy / a
+compañia de seguros / insurance company / n
+caminar / to walk / v
+camino /I walk / v
+caminas / you walk / v
+camina /he walks / v
+caminamos / we walk / v
+caminan / they walk /v
+un apartamento / apartment / n
+los viernes por la tarde / Friday afternoons / na
+leer / to read /v
+leo / I read /v
+lees / you read / v
+lee / he reads /v
+leemos / we read / v
+leen / they read / v
+un almuerzo /a lunch /n
+almorzamos / we lunch /v
+cenan / they dine / v
+un desayuno / a breakfast / n
+Yo desayuno / I eat breakfast / v
+una reservación /  a reservation / n
+¿Su nombre? / Your name? / qn
+un cuarto con vista al mar/ a room with a view of the sea / n
+una habitación / a room / n
+un piso alto / an upper floor / na
+una cama doble / a double bed / n
+aire acondicionado / air-conditioned / a
+la planta bajo/ the ground floor / n
+al lado de / next to/ a
+estar / to be /vi
+estoy / I am (fleetingly) / vi
+tú estás / you are (fleetingly)/ vi
+ella  está/she is (fleetingly) / vi
+estamos / we are (fleetingly)/ vi
+están /they (you plural formal) are / vi
+la playa  /beach /n
+el baño privado / private bathroom /na
+la piscina / pool / n
+la montaña / the mountain / n
+la llave / the key /n
+el aire acondicionado / the air conditioner / n
+un teléfono  / a telephone / n
+el quinto piso / the fifth floor / a
+a la derecha de / on the right /a
+a la izquierda de/ on the left/ a
+en / in, at, on / p
+enfrente de / in front of /a
+arriba de / on top of / a
+abajo  de / under or below / a
+entre /between / a
+detrás de/behind /a
+el control remoto / the remote  /n
+un abrigo / a coat / n
+una noche / night / n
+el lunes / Monday / n
+el martes / Tuesday / n
+el miércoles / Wednesday /n
+el jueves / Thursday / n
+el viernes / Friday / n
+el sábado / Saturday /n
+el domingo / Sunday /n
+enero / January /n
+febrero / February /n
+marzo / March / n
+abril / April / n
+mayo / May / n
+junio / June / n
+julio / July / n
+agusto / August / n
+septiembre / September / n
+octubre / October / n
+noviembre / November /n
+diciembre / December / n
+las estaciones / the seasons /n
+primavera / spring / n
+verano / summer / n
+otoño / autumn /n
+invierno / winter /n
+hacer / to make /vi
+hago / I make / vi
+tú haces /you make / vi
+el hace / he makes / vi
+hacemos / we make / vi
+ellas hacen / they make / vi
+la calle principal / the main street / na
+descansar /to rest / v
+disfrutar / to enjoy / v
+por las cuales / for which/ cp
+kilómetros / kilometers / n
+popular / popular / a
+turistas / tourists / n
+terraza / terrace / n
+excelente / excellent / a
+la razon / the reason / n
+la vacacion / the vacation / n
+una fiesta / a party /n
+la reunión / the meeting / n
+el concierto / the concert / n
+el espectáculo / the show / n
+la conferencia / the conference / n
+feliz / happy / a
+contento(a) / content / a
+triste / sad /a
+alegre / cheerful /a
+nervioso / nervous / a
+tranquilo /quiet / a
+cansado(a) / tired / a
+libre / free /a
+preoccupado / worried / a
+enfermo / sick / a
+resfriado(a) / sick with a cold / a
+aburrido /bored, boring / a
+divertido(a) / funny /a
+tener hambre / to be hungry / avi
+tengo calor / I am hot / avi
+tienes frio / you are cold / avi
+tiene sed / he is thirsty / avi
+tenemos sueño / we are sleepy / avi
+ir / to go /vi
+voy / I go / vi
+vas / you (familiar) go / vi
+ella va/ she goes / vi
+vamos/ we go / vi
+Ustedes van / you all go/ vi
+dar /to give / vi
+nunca doy / I never give / vi
+das / you  (familiar) give / vi
+ella da/ she gives / vi
+damos/ we give / vi
+Ustedes dan / you all give/ vi
+una iglesia / a church / n
+vamos en carro / we go by car / vi
+¿Vas en tren? / Are you going by train? / qvi
+ir de compras / to go shopping / vi
+ir de vacaciones / to go on holidays/ vi
+ir a la escuela / to go to school/ vi
+dar un consejo / to give advice / vi
+doy siempre propina / I always tip / vi
+el da una conferencia / he gives a lecture / vi
+el club / the club / n
+hacer gimnasia / to do gymnastics / n
+al teatro / to the theatre/ pn
+el mercado / the market / n
+el cine / the cinema / n
+visitar /to visit/ v
+
+#! section='5'
+Siempre /Always /a
+Nunca /Never / ac
+Normalmente / Normally / a
+algunas veces  /sometimes / a
+bonita /beautiful / a
+El oeste / The west / n
+El avión / The airplane / n
+el autobus / the bus /n
+los refrescos / soda pop / n
+El mediodia / noon / #nla ducha / the shower / n
+el especial del dia / the special of the day / na
+algo / something /p
+la siesta / the nap / n
+Caminar / To walk / v
+Escuchar / to listen to / v
+mirar / to watch / v
+Nadar / to swim / v
+Descansar /To rest / v
+Tomar sol / to sunbathe /va
+Comprender / to understand / v
+Correr / to  run/ v
+aprender / to learn /v
+recibir / to receive / v
+discutir / to discuss/ v
+decidir / to decide /v
+tengo que estudiar / I have to study / vi
+tienes que visitar a tu madre / you have to visit your mother / vi
+quiero visitar a su madre / you want to visit your mother / vi
+tu vas visitar a su madre / you are going to visit your mother / vi
+vamos pagar / we are going to pay / v
+quiero pagar / I want to pay /v
+el va pagar / he is going to pay
+la entrevista / the intervfiew / n
+mi resumé / my resume / n
+usar / to use /v
+¿cómo está todo? / how is everything? / qg
+¿Dónde está ubicado / Where is it located? qag
+Temprano / early  /a
+buena suerte  /good luck / gn
+compartir /to share /v
+Llegar To arrive /v
+Preparar / to prepare / v
+Hace calor / It's hot (hacer)/ ga
+Hace frio / It's cold (hacer)/ ga
+Está caluroso / it's hot (estar) / ga
+Está frio / it's cold (estar) / ga
+Está soleado / it's sunny (estar) / ga
+Está ventoso / it's windy (estar) / ga
+Está nublado / it's cloudy (estar) / ga
+Está lluvioso / it's rainy (estar) / ga
+Está seco / it's dry (estar) / ga
+Está húmedo  / it's humid (estar) / ga
+Hay sol /it's sunny (hay) / qa
+Hay viento / it's  windy (hay) / qa
+Hay nubes / there are clouds(hay) / qa
+Hay lluvia / there is rain (hay) / qa
+Hay humedad / it is humid (hay) / qa
+No hay humedad / it's dry (hay) / qa
+Hay nieve / there is snow (hay) / qa
+el lapiz / the pencil /n
+los lapices / the pencils / v
+para / in order to, for / p
+# Addendum to section 5 from handout sheet
+simpático(a) / nice, friendly / a
+antipático(a) / grumpy / a
+Alegre / Happy, cheerful / a
+Triste / Sad /a
+trabajador(a) / hard worker / n
+perezoso(a) / lazy /a
+Divertido(a) / Funny / a
+seguro(a) / self-confident / a
+inseguro(a)/ unconfident /a
+cariñoso(a) /warm /a
+distante / distant a
+generoso(a) / generous / a
+egoísta / selfish / a
+raro(a) / weird / a
+normal / normal / a
+listo(a) / clever /a
+tonto(a) / silly /a
+tolerante / tolerant /a
+intolerante / intolerant / a
+hablador /talkative / a
+Callado(a) / Quiet /a
+sociable / sociable / a
+honesto(a) / honest / a
+mentiross(a) / liar  / a
+responsable / responsible  /a
+irresponsable / irresponsible  /a
+educada(a) / polite / a
+maleducado(a) /rude /a
+
+
+#! section='6'
+preferido(a) / favorite / a
+ahorrar /to save /v
+terminar / to finish / v
+dar un paseo /To stroll /v
+estar aburrido /to be bored / v
+ser abburido / to be boring / v
+donar /t donate  /v
+alquilar /to rent /v
+vender / to sell / v
+abrir / to open / v
+Recibir / To receive / v
+asistir / to assist /v
+subir / to go up / v
+bajar / to go down / v
+Discutir / To discuss/ v
+regresar / to come back, to return / v
+jugar / to play /v
+ordenar comida / to order food / v
+#Descansar / To rest /v
+cansar / to tire out/v
+de ida / going, outbound / a
+de vuelta / returning, inbound / a
+el boleta de ida y vuelta / na
+el pan integral / whole wheat bread / n
+el voluntario / the volunteer / n
+el refugio / the shelter / n
+juntos / together / a
+separados / separated, apart / a
+#Nunca / Never /a
+#Siempre /Always / a
+Antes / Before / a
+Después / After / a
+Mirar / to look, to watch / v
+negar / to deny / v
+ordenar / to order, to tidy up / v
+organizar / to organize / v
+pasear / to stroll / v
+poser / to be able to / v
+regalar / to give a present / v
+salir / to go out, to exit, to leave /v
+servir / to serve / v
+viajar / to travel / v
+la lectura / the reading / n
+la limpieza / the cleaning /n
+la llegada / the arrival / n
+la mirada / the look /v
+la negación / the denial / n
+la orden / the order / n
+la organización / the organization /n
+el poder / the power / n
+el regalo / the gift / n
+el regreso / the return / n
+la salida / the exit, the departure /n
+el servicio / the service / n
+la visita / the visit / n
+el trabajo / the work / n
+
+#! section='7'
+barrio / district / n
+el jardín /garden /n
+una mesa de café / a coffee table /n
+una sofá / a sofa / n
+al fondo de / at the end of / a
+rectangular / rectangular /a
+un sillón / an armchair / n
+cocinar / to cook /v
+lavar / to wash /v 
+secar / to dry / v 
+dormir / to sleep / v 
+yo duermo / I sleep / vi
+tú duermes / you (informal) sleep / vi
+el duerme / he sleeps / vi
+nosotros dormimos / we sleep / vi
+ellos duermen / the sleep / vi
+la cuna / the crib / n
+poner / to put / vi
+yo pongo / I put / vi
+tú pones / you put / vi
+ella pone / she puts/ vi
+nosotras ponemos / we (feminine) sleep / vi
+Ustedes ponen / you (formal plural) sleep / vi
+la lámpara / the lamp / na
+la alfombra / the carpet / n 
+el ropero / the wardrode / na
+el cochecita / the pram, or baby buggy / n 
+la almohada / the pillow / n 
+la nevera / the fridge / n 
+la estufa / the stove / n 
+el lavavajilla / the dishwasher / n 
+la secadora / the dryer / n 
+la lavadora / the washing machine / n 
+la toalla / the towel /n 
+el retrete / the toilet / n 
+la ducha / the shower / n 
+el lavamanos / the washbasin or sink / n 
+la bañera / the bathtub / n 
+el espejo / the mirror / n 
+el ventilador / the fan / n 
+felicitaciones / congratulations / g 
+la esquina de / the corner of / a 
+el cuarto de huéspedes / the guest room / n 
+los muebles / the furniture / n 
+la cama doble / the double bed / n 
+a cada lado / on each side / a
+la computadora / the computer / n 
+ya / already / ap
+todavía / yet / ap
+es una buena idea/ it's a good idea  / gna
+el césped / the lawn, grass / n
+debajo de /under / a 
+Delante de / In front of / a 
+dentro de / inside of / a 
+fuera de / outside of / a 
+el edificio /the building / n 
+el segundo piso / the second floor / na 
+moderno / modern / a 
+luminoso / bright / a 
+la lámpara de pie / the floor lamp / na
+la biblioteca / the bookcase / n 
+la mesa redonda / the round table / na 
+amplio / spacious / a 
+cómodo / comfortable / a
+la luz / the light / n 
+el balcón / the balcony / n
+los materiales / the materials / n 
+de cuero / made of leather / a 
+de metal / made of metal / a 
+de madera / made of wood / a
+primer, primero(a) / first / #
+segundo(a) / second / #
+tercer, tercero(a)/ third / #
+cuarto(a) / fourth / #
+quinto(a) / fifth / #
+sexto(a) / sixth /#
+séptimo(a) / seventh / #
+octavo(a) / eighth /#
+noveno(a) / ninth / #
+décimo(a) / tenth / #
+Grande / Big /a 
+Pequeño / Small / a
+Alto / Tall / a 
+Bajo / Short / a 
+Largo / Long / a 
+ancho / wide /a 
+angosto/ narrow / a 
+Bueno / Good / a 
+Caro / Expensive / a 
+Barato / Inexpensive / a 
+malo / bad / a 
+Fácil / Easy / a
+Dificil / Difficult / a 
+joven / young / a 
+nuevo / new / a 
+viejo / old / a 
+Gordo / Fat / a 
+Delgado / Thin / a 
+pesado / heavy / a 
+liviano / light (weight) / a 
+sympático / nice / a 
+antipático / unpleasant / a 
+mejor que / better than / a 
+mejores que /better than (plural) / a 
+peor que /worse than /a 
+peores que / worse than (plural) / a 
+menor que / younger than / a 
+menores que / younger than (plural) / a 
+mayor que / older than / a 
+mayores que / older than (plural) / a 
+mas que / more than / a 
+menos que / less than / a 
+el techo / the roof / n 
+la puerta de entrada / the entrance door / n 
+antigua / old (thing, not person) / a
+el vecino / the neighbour / n 
+la cuadra / the block / n 
+este carro / this car / a 
+esta casa / this house / a 
+estos carros / these cars / a 
+estas casas/ these houses /  a 
+ese carro / that car / a 
+esa casa / that house / a 
+esos carros / those cars / a 
+esas casas/ those houses /  a 
+esto (esta, este) / this (unspecified) / ap
+eso (esa, ese) / that (unspecified) / ap
+estos (estas) / these (unspecified) / ap
+esos (esas) / those (unspecified) / ap
+
+#! section='8'
+ruidoso / noisy / a 
+la agencia de viajes / travel agency / n 
+el agente de viajes / travel agent / n 
+el boleto de avion / the airplane ticket / n 
+el vuelo / the flight / n 
+el asiento / the seat / n 
+La salida / The exit / n 
+La Llegada / The arrival / n 
+volar /to fly / v 
+hacer una reservación / to make a reservation / va
+parar / to stay, to stop /v 
+Llegar / To arrive / v 
+cuanto (tiempo) hace / how long has it been /?qgv
+hace cinco anñs / it has been five years / vag
+conocer / to know (to be acquainted with) / vi
+saber / to know (a fact oe skill) / vi
+conozco / I know (am acquainted with) / vi
+conoces / you know (informal, are acquainted with) / vi
+conoce / he knows (is acquainted with) / vi
+conocemos /we are acquainted with / vi
+conocen / they are acquainted with /  vi
+conoces a James/ he knws James/ viajar
+Yo sé / I know ( a fact, a skill) / vi
+Tu sabes / You (informal)  know ( a fact, a skill) / vi
+Ella sabe / She knows ( a fact, a skill) / vi
+Nosotros sabemos / We know ( a fact, a skill) / vi
+Ellos saben / They know ( a fact, a skill) / vi
+¿sabe qué hora es? / Do you know what time it is?
+lo (la) / it / p 
+los (las) / them / p 
+I look at it / lo veo / vp
+I look at her /la veo / vp
+los tengo / I have them / vp
+guía turístico / tourist guide / na
+pasar a buscar / to pick (somebody) up / vg
+Salir / To go out / vi
+salgo / I go out / vi
+sales / you go out / vi
+sale / he goes out / vi 
+salimos / we go out / vi 
+salen / they go ot / vi 
+traer / to bring / vi 
+traigo / I bring / vi 
+traes / you (informal) bring / vi
+trae / she brings/ vi 
+traemos / we bring / vi 
+traen / they bring / vi
+poner to put / vi 
+Pongo / I Put / vi 
+pones / you (informal) put / vi 
+pone / he puts / vi 
+ponemos / we put / vi 
+ponen / they put / vi
+venir / to come / vi 
+vengo / I come / vi 
+nienes / you come /vi
+viene / he comes / vi 
+venimos / we come / vi
+vienen / they come / vi 
+decir / to say, to tell / vi 
+digo / I say / vi
+dices /you (informal) say / vi 
+dice / he says / vi 
+cecimos / we say / vi
+dicen / they say / vi 
+di me /tell me! (polite) / vi
+diga me/ Tell me! (demandingly) / vi
+para lo regalar / in order to give it / vp
+para conocer Havana / in order to know Havana / vpi
+
+#! section='10' # Intermedio book 1: gerunds, stem changing verbs
+Lo dudo / I doubt it / gv
+rubia /blonde/ an
+Lo siento / I'm sorry / g
+claro / light, clear / ag
+el efectivo /cash/ n
+Conocer / to meet, to know / vi
+pedir / to ask / vi
+pido / I ask, I request / vi
+pedimos / we request / vi
+pides / you request / vi
+Jugar / To play / vi
+juego / I play / vi
+juegan / they play / vi
+jugamos / we play / vi
+entender / To understand / vi
+entiendo / I understand / vi
+entendemos / we understand / vi
+comenzar / to bein / vi
+comienzo / I begin /vi
+comienzas / You (singular) begin /vi
+comenzamos / we begin / vi
+despertar /  to wake up /vi
+despertamos / we wake up / vi
+desperto / I wake up / vi
+perder / to lose / vi
+pierdes / you lose / vi
+perdemos / we lose / vi
+empezar / to begin / vi
+empiezas / you (singular informal) start / vi
+cerrar / to close / vi
+cierran / they close / vi
+cerramos / we close / vi
+nevar / to snow / vi
+nieve / it snows / vi
+preferir / to prefir / vi
+prefiere / he prefers / vi
+preferemos / we prefer / vi
+pensar / to think / vi
+piensas / you think / vi
+sentir / to feel / vi
+siento / I feel /  vi
+siente / he feels /vi
+sugerir / to suggest / vi
+sugerimos / we suggest / vi
+sugieras / you suggest /vi
+sentarse / to sit down / vi
+te sientes / you sit down / vi
+nos sentimos / we sit down / vi
+contar /to count, to tell / vi
+cuentran / they count, tell / vi
+llover / to rain / vi 
+llueve / it rains / vi
+encontrar / to meet / vi
+encontramos / we meet / vi
+encuentran / they meet / vi
+Volver / To return / vi
+vuelve / he returns/ vi
+volvemos / we return / vi
+probar / to taste, to try / vi
+probamos / we taste / vi
+prueban / they taste / vi
+Volar / To fly / vi
+vuela / he flies / vi
+volamos / we fly / vi
+soñar / to dream / vi
+soñamos / we dream / vi
+sueñan / they dream / vi
+acostar / to put to bed / vi
+acostamos / we put to bed / vi
+acuestas / you put to bed / vi
+recordar / to remember / vi
+recuerdo / i rem,ember / vi
+recuerdas /you remember / vi
+recordamos / we remember / vi
+elegir / to choose /vi
+eligo / I choose / vi
+elegimos / we choose / vi
+eligen / they choose / vi
+despedir / to fire, to send off / vi
+despide / he sends off / vi
+despedimos / we send off / vi
+reir / to laugh / vi
+rio / I laugh / vi
+ries / you laugh / vi
+rien / they laugh / vi
+reimos / we laugh / vi
+repetir / to repeat / vi
+repetimos / we repeat / vi
+repite / he repeats/ vi
+Servir / To serve / vi
+sirvo / I served / vi
+servimos / we serve / vi
+sirven / they serve / vi
+estoy hablando / I am talking / v
+¿Qué estás haciendo ahora? / whaare you doing now / v
+estoy preparando una ensalada / I am preparing a salad / v
+está tocando / he is touching /v
+estaoy comiendo / I amd eating /v
+estás corriendo hoy? / are you running today? / v
+estoy estudiando / I am studying / v
+estoy trabajando / I am working / v
+está decidiendo / He is deciding / v
+estamos oyendo /we are seeing /  vi
+estan durmiendo / They are sleeping / vi
+es viendo / he is coming / vi
+estoy trajendo / I amd bringing / vi
+estan yendo / they are going / vi
+voy a renunciar a mi trabajo el próximo mes/ I am going to quit my job next month / v
+esparar es aburrido / waiting is boring / v
+bailar es divertido / dancing is fun /v
+
+#! section='11'  # camping; mood/emotion verbs
+me gustan tus gajas / I like your glasses
+me preoccupa / it worries me / v
+me duele la liviana/ the light hurts me / v
+me aburren los computadoras / computers bore me / v
+me parece / it seems to me /v 
+me encantan / they delight me / v
+me disgusta su ropa/ his clothing disgusts me / v
+me iteresan estas libros/ these books interest me / v
+me molesta cuando to no me llamas/ it bothers me when you don't call me/v
+me molestan / they annoy me /v
+no me importa / I couldn't give a damn / v
+me conviene / it suits me / v
+me queda / it fits me / v
+
+#! section='12'  # reflexive verbs
+la edad / the age / n
+liviana / light / n
+los informes / the rports /n
+estrñs / stress / n
+
+#! section='13'  # simple past, more clothing 
+Yo hablé / I spoke / v
+Tú hablaste / you spoke / v
+El(ella,Usted) habló / he spoke /v
+Nosotros hablamos (pretérito simple)/ we spoke / v
+Ellos (ellas, Ustedes) hablaron / they spoke / v
+Yo comí / I ate / v
+Tú comiste / you ate / v
+El(ella,Usted) comió / he ate /v
+Nosotros comimos / we ate / v
+Ellos (ellas, Ustedes) comieron / they ate / v
+Yo viví / I lived / v
+Tú viviste / you lived / v
+El(ella,Usted) vivió / he lived /v
+Nosotros vivimos (pretérito simple)/ we lived / v
+Ellos (ellas, Ustedes) vivieron / they lived / v
+¿Qué hice ayer? / What did he do yesterday? / vi
+¿Qué hiciste ayer? / What did you do the day before yesterday? / vi
+¿qué hizó ayer? / what did you do the day before yesterday? / vi
+¿Qué hicieron hace dos meses? / What did they do the last two months? / vi
+Yo fui (ser,ir)/ I went, I was (simple past)/ vi
+Tú fuiste  (ser,ir)/ You went, you were (simple past)/ vi
+el fue  (ser,ir)/ he was, he went (simple past)/ vi
+nosotros fuimos  (ser,ir)/ we were, we went (simple past)/ vi
+ellos fueron  (ser,ir)/ they were, they went (simple past)/ vi
+A qué hora volviste? / When did you come back? / v
+Dónde fue la reunion? / Whewre was the meeting? / v
+encantadores / charming / a
+para llevar / for take-out / a
+tratar / to treat / v
+aumentar / to gain (weight) / v
+Yo tuve /I had / vi
+Tú tuviste /You had / vi
+El tuvo /He had / vi
+Nosotros tuvimos /We had / vi
+Ellos tuvieron / They had / vi
+Yo estuve (estar) / I was / vi 
+Tú estuviste (estar) / You were / vi 
+El estuvo (estar) / He was / vi 
+Nosotros estuvimos (estar) / We were / vi 
+Ellos estuvieron (estar) / They were / vi 
+Yo quise / I wanted / vi 
+Tú quisiste  / You wanted / vi 
+El quiso  / He wanted / vi 
+Nosotros quisimos  / We wanted / vi 
+Ellos quisieron  / They wanted / vi 
+Yo puse / I put (past) / vi 
+Tú pussiste  / You put (past) / vi 
+El puso  / He put (past)  / vi 
+Nosotros pusimos  / We put (past) / vi 
+Ellos pusieron  / They put (past) / vi 
+Yo traje / I brought / vi 
+Tú trajiste  / You brought / vi 
+El trajo  / He brought / vi 
+Nosotros trajimos  / We brought / vi 
+Ellos trajeron  / They brought / vi 
+Yo vine / I came / vi 
+Tú viniste  / You came / vi 
+El vino  / He came / vi 
+Nosotros vinimos  / We came / vi 
+Ellos vinieron  / They came / vi 
+Yo dije / I said / vi 
+Tú dijiste  / You said / vi 
+El dijo  / He said / vi 
+Nosotros dijimos  / We said / vi 
+Ellos dijeron  / They said / vi 
+La dueña / the owner / n
+cortadas / cut (adjective) /a
+los aros /rings /n
+la sartén / the frying pan /n
+el plato / the dish / n
+esplendorosa / spndourous / a
+abundancia /abundance / n
+lo cocción / the cooking / n
+fue creada / it was created / v
+pasar /to pass by / v
+Pedir /To ask, request / v
+descubrir / to discover / v
+freir / to fry / v
+Agregar / To add (to) / v
+ayer / yesterday / an
+antes de ayer (anteayer) / the day before yesterday /an
+la semana pasada / last week / na
+el jueves pasado / last Thursday / na
+hace dos meses / two months ago / na
+
+#! section='14'  # other irregular simple past, concerts, nightlife
+Servi /i served / vi
+serviste /You (singular, informal) served / vi
+sirvió / he served / vi
+nosotros servimos / We served/ vi
+sirvieron / they served / vi
+pude / I was able to / vi
+pudiste / you were able to / vi
+pudo / he was able to /vi
+pudimops / we were able to / vi
+pudieron / they were able to / vi
+cambiar / to exchange / v
+la madrugada / the early morning / n
+alta velocidad / high speed / n
+conducir / to drive / v
+los recuerdos / the souvenirs / n
+quedarse (alojarse)/ to stay /v
+alojarse (quedarse)/ To stay / v
+estar decidido a / to be decided to / v
+decidirse a / to make up one's mind to / v
+la vanguardia / the avant garde / n
+desenfrenada / frantic /a
+la jornada / the working day / n
+abarcar / to cover (as in topics)/ v
+desarollarse / to take place, to unfold / v
+El concierto / the conceret / n
+el estadio / the stadium /n
+la entrada / the entrance / n
+el resto / the rest (as in remainder) / n
+fuerte / loud /a
+la banda / the band (music) / n
+Regalar / To give (as a gift) / v
+presentar / to show / v
+haver cola / to line up / v
+endenderse / to turn on / v
+aparecer / to appear / v
+durar / to last / v
+ 
+#! section='15' imperfect tense
+Yo hablaba / I was speaking (used to speak) / v
+hablabas / you were speaking (used to speak)/v
+El hablaba / he was speaking (used to speak)/ v
+hablabamos / we were speaking (used to speak)/ v
+hablaban / they were speaking (used to speak)/ v
+Yo comía / I was eating (used to eat)/ v
+comías / you were eating (used to eat)/ v
+Ella comía / she was eating (used to eat)/ v
+comíamos / we were eating (used to eat)/ v
+comían / they were eating (used to eat)/ v
+Yo vivía / I was living (used to live)/ v
+vivías / you were living (used to live)/ v
+Ella vivía / she was living (used to live)/ v
+vivíamos / we were living (used to live)/ v
+vivían / they were living (used to live)/ v
+Yo veía / I was seeing / vi
+veías / You were seeing / vi
+veía / He was seeing / vi
+veíamos / We were seeing / vi
+veían / They were seeing / vi
+era / I was (imperfect, permanent) / vi
+eras / You were (imperfect, permanent) / vi
+El era / He was (imperfect, permanent) / vi
+éramos / We were (imperfect, permanent) / vi
+eran / They were (imperfect, permanent / vi
+Yo estaba / I was (imperfect, temporary) / vi
+estabas / You were (imperfect, temporary) / vi
+estaba / He was (imperfect, temporary) / vi
+estabamos / We were (imperfect, temporary) / vi
+estaban / They were (imperfect, temporary / vi
+iba / I was going / vi
+ibas / You were going  / vi
+Ella iba / She was going  / vi
+íbamos / We were going  / vi
+iban / They were going  / vi
+mientras / while /c
+durante / during / cp
+al mismo tiempo que / at the same time as / apc
+antes de / before / ac
+el canto / the singing / n
+los párajos / the birds / n
+las galletas / the cookies/ n
+la arena / the sand / n
+la marienda / the afternoon snack / n
+el balneario / the seaside resort / n
+el ruido / the noise / n
+el asado / the barbeque / n
+casero / home-made / a
+Soñar / To dream / v
+las sierras / the mountains / n
+lleno / full / a
+la granja / the farm / n
+la iglesia / the church /n
+refrescante / refreshing / a
+combinar / to combine / v
+Compartir / To share /v
+el coñac / gognac / n
+el licor / the liqueur / n
+el aguardiente / the liquor / n
+al gusto / at your taste / a
+los trozos / the peces/ n
+anadir / to add (as in recipes)/ 
+lograr / to achieve, to obtain / v 
+
+#! section='99' # Weird stuff
+Vinó por el vino. / He came for the wine.
+
+
 
 # á é í ó ú ñ ü ¿ ¡ 
 # some useful characters for cut and paste

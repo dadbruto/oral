@@ -1,0 +1,55 @@
+# Phrasebook file
+# Comment lines begin with hashmark '#'
+# Entry format:
+# Foreign language phrase / local language phrase"
+# á é í ó ú ñ ü ¿ ¡ 
+
+#! instructions='Translate, replacing words with direct, and indirect object pronouns'
+#! direction='b'
+
+#! section='1'  # Indirect object pronouns after 'with'
+Quiere Usted venir conmigo? /Do you (formal) want to come with me?
+Tienes que viajar con ella. / You have to travel with her. 
+No voy contigo. /I am not going with you.  
+Quieres compartirla con nosotros? / Do you want to share the food with us?
+No tiene que trabajar contigo. / He doesn't have to work with you.
+Yo lo llevo siempre conmigo./ I always take a bag with me.
+Corremos con ellos. / We run with them.
+Quiero estudiar con él. / I like to study with him.
+Sale con ella. / He leaves with her.
+Por supuesto, trabajamos con Ustedes. / Of course we will work with you all.
+Hoy no puedo almorzar contigo. / Today I can't lunch with you.
+
+
+#! section='2'  # Direct object pronouns
+La quiere /He wants a drink /
+La bebo / I drink water /
+Lo tengo / I have a black car 
+Ellos te llevan a casa./They take you home.
+Cuándo me invitas a tu casa? /When are you inviting me to your home?
+Por favor, me llamas por teléfono todos los dias./ Please phone me every day.
+Los das mas tiempo. / Give the students more time.  
+Can you write the letters? /Puedes escribirlas?
+Lo tienes que invitar, or Tienes que invitarlo. /You must invite him.
+La lees?/ Do you read the homework?
+Lo baño una vez por semana. /I bathe the dog once a week.
+
+#! section='3'  # Indirect object pronouns after 'for' or 'to'
+Les explico mañana./ I explain to them tomorrow.
+El me dice. / He tells me.
+Papá les lee. /Dad reads to the children.
+
+#! section='4'  # Indirect and direct object pronouns together
+Yo se la compro contigo. / I buy a present for Ricardo with you.
+Se la compramos. / We buy a present for Ricardo.
+Se la traigo /I bring the letter for them.
+Nos lo lee. / He reads the book to us.
+Me lo cuentan. / They relate the story to me.
+
+
+
+
+
+# á é í ó ú ñ ü ¿ ¡ 
+# some useful characters for cut and paste
+# á é í ó ú ñ ü ¿ ¡ 

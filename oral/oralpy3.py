@@ -1,6 +1,7 @@
 import codecs
 import os
 import time
+import re
 
 from tempfile import NamedTemporaryFile
 
@@ -30,18 +31,13 @@ update_interval = .1
 
 def beep():
     print('\a')
-	# Michael wuz here
 
 def invert_dict(d):
     return dict(zip(d.values( ), d.keys( )))
 
-# def quiterator(s):
-    # # iterate over characters in a string
-    # i = 0
-    # n = len(s)
-    # while i < n:
-        # yield s[i]
-        # i += 1
+def deparens(s):
+	# remove parenthesized expressions from a string
+	return re.sub(r'\([^)]*\)', '', s)
 
 def get_options():
     from optparse import OptionParser       
@@ -79,6 +75,14 @@ def get_options():
     parser.add_option("-t", "--timedelay",
                       dest="waittime", default=4.0,
                       help="Time delay before giving answer default 4 (seconds)")
+    parser.add_option("-S", "--summary",
+                      action = "store_true",
+                      dest="summary",default=False,
+                      help="Print summary of testbook, then quit")
+    parser.add_option("-F", "--fullscreen",
+                      action = "store_true",
+                      dest="fullscreen",
+                      help="Fullscreen mode, default False")
 
     (options, args) = parser.parse_args()
     # post processing
@@ -102,6 +106,7 @@ def get_options():
 
 
 def say(phrase,lang):
+    phrase = deparens(phrase)
     tts = gTTS(text=phrase, lang=lang)
     temp_file = NamedTemporaryFile(prefix="oral_", suffix=".mp3", delete=False)
     tts.write_to_fp(temp_file)
@@ -113,7 +118,12 @@ def say(phrase,lang):
     return sound.duration
 
 
-window = pyglet.window.Window(resizable=True,caption='Oral')
+#window = pyglet.window.Window(resizable=True,caption='Oral')
+o = get_options()
+if o.fullscreen:
+    window = pyglet.window.Window(fullscreen=True,caption='Oral')
+else:
+    window = pyglet.window.Window(resizable=True,caption='Oral')
 
 @window.event
 def on_resize(width, height):
@@ -162,10 +172,10 @@ def on_draw():
     display.time_left_label.draw()
     display.help_label.draw()
     display.question_pool_description_label.draw()
-
+    display.instructions_label.draw()
 
 class InterrogatorDisplay(object):
-    def __init__(self):
+    def __init__(self,provided_instructions=None):
         #self.x = 1
         self.question_number = 0
         self.time_left_label_text = ''
@@ -207,6 +217,13 @@ class InterrogatorDisplay(object):
                                   font_size=16,
                                   x=int(0.05*window.width), y=int(0.01*window.height),
                                   anchor_x='left', anchor_y='bottom')
+        self.instructions_label= pyglet.text.Label(provided_instructions,
+                                  color = (200,250,0,255),
+                                  font_name='Times New Roman',
+                                  font_size=16,
+                                  x=int(0.05*window.width), y=int(0.1*window.height),
+                                  anchor_x='left', anchor_y='bottom')
+
 
 class Interrogator(object):
                 
@@ -226,8 +243,8 @@ class Interrogator(object):
         self.display.paused = self.paused 
         #describe cycling parameters via global variables
         self.t_welcome = 2.0
-        self.time_allowed_for_question = 3
-        self.time_allowed_for_answer = 2
+        self.time_allowed_for_question = time_allowed_for_question
+        self.time_allowed_for_answer = time_allowed_for_answer
         self.stage_duration = 0
         self.question_number = 0
         self.display.question_number = self.question_number
@@ -235,6 +252,8 @@ class Interrogator(object):
         self.calls = 0
         self.display_time_left = False
         self.qdirection = direction
+        #print("self.qdirection",self.qdirection)
+
         def QuestionKeyGenerator(entrykeys,uses,method='original'):
             #print("method=",method)
             #print("entrykeys=",entrykeys)
@@ -324,8 +343,9 @@ class Interrogator(object):
             self.stage_duration = self.time_allowed_for_question
             if not self.quiet and not list_is_finished: self.stage_duration = say(self.question,self.question_language) + self.stage_duration 
             self.t = 0.0
+            #print(self.stage)
         elif self.stage == 'question_was_posted'  and self.t >= self.stage_duration and not list_is_finished:
-            #print("Descovered expired stage",stage)
+            #print("Descovered expired stage 1",self.stage)
             # play and print answer, and let the user look for t = time_allowed_for_answer
             self.display_time_left = False
             display.time_left_label.text = 'Time left '+str(int(self.stage_duration - self.t))
@@ -335,8 +355,10 @@ class Interrogator(object):
                 self.stage_duration = self.time_allowed_for_answer
                 if not self.quiet: self.stage_duration = say(self.answer,self.answer_language) + self.stage_duration 
                 self.t = 0.0
+                #print(self.stage)
+
         elif self.stage == 'answer_was_posted' and self.t > self.stage_duration and not list_is_finished:
-            #print("Descovered expired stage",stage)
+            #print("Descovered expired stage 2",self.stage)
             self.usage[self.key] = self.usage[self.key] + 1
             self.display_time_left = False
             if self.t >= self.stage_duration:
@@ -344,11 +366,13 @@ class Interrogator(object):
                 self.stage_duration = self.fade_time
                 self.t = 0.0
                 display.time_left_label.text = ''
+                #print(self.stage)
         elif self.stage == 'fading' and self.t >= self.stage_duration and not list_is_finished:
-            #print("Descovered expired stage",stage)
+            #print("Descovered expired stage",self.stage)
             self.stage = 'welcoming'
             self.stage_duration = 0.0
             self.t = 0.0
+            #print(self.stage)
         else:
             #print("No action in interrogator update")
             pass
@@ -389,13 +413,13 @@ def read_progressbook(phrasebook_file_root,es2uses):
 
 #global section
 def safe_exec(s):
-    allowed_global_settable_variable_names = 'rumpelstiltskin,section' # a comma separated list
+    allowed_global_settable_variable_names = 'rumpelstiltskin,section,instructions,direction' # a comma separated list
     exec('global '+allowed_global_settable_variable_names+";"+s,globals(),{})
     return
 
 class Testbook(object):   
-    def __init__(self,filename_root=None,verbosity=1,en2es={},es2en={},\
-    es2uses={},es2section={},parts_of_speech={},index_of_es={}):
+    def __init__(self,filename_root=None,verbosity=0,en2es={},es2en={},\
+    es2uses={},es2section={},parts_of_speech={},index_of_es={},provided_instructions=None,summary=None):
         number = list(set([len(en2es),len(es2en),len(es2uses),len(es2section),len(index_of_es)]))
         #print("Entering t with ",filename_root)
         if len(number)>1:
@@ -412,7 +436,11 @@ class Testbook(object):
             self.es2section = es2section
             self.index_of_es = index_of_es
             self.parts_of_speech = parts_of_speech
+            self.instructions = provided_instructions
+            self.direction=None
         else:
+            self.instructions = None
+            self.direction = None
             self.filename_root = filename_root
             phrasebook_file_name = filename_root + '.pbk'
             index = 0
@@ -425,6 +453,7 @@ class Testbook(object):
             index_of_es = {}
             es2section = {}
             line_number = 0
+            section_count = 0
             if os.path.exists(phrasebook_file_name):
                 with codecs.open(phrasebook_file_name, 'r',encoding='utf-8') as f:
                     for line in f:
@@ -452,6 +481,7 @@ class Testbook(object):
                             parts_of_speech[es] = this_part_of_speech
                             index_of_es[es] = index
                             index = index + 1
+                            section_count = section_count + 1   
                             en2es[en] = es
                             es2en[es] = en
                             es2uses[es] = 0  # to be overwritten by progress entries
@@ -468,18 +498,33 @@ class Testbook(object):
                             # if is_selected_section and is_selected_part_of_speech:
                                 # working_set_eskeys.append(es) 
                         # May be a python instruction, e.g. to set the section ID
-                        elif len(line) > 2 and line[0:2] == '#!':
+                        elif len(line) > 2 and line[0:2] == '#!':  # execute python directive if neither a comment nor a question
                             try:
-                                global section
+                                #print("Executing directive: ",line[2:])
+                                global section,instructions,direction
+                                section=None
+                                instructions = None
+                                direction = None
                                 safe_exec(line[2:])
-                                current_section = section
+                                if section is not None: # We have just encountered the start of a new section
+                                    if summary: 
+                                        if section_count: print("               ",section_count," entries in this section.")
+                                        section_count = 0
+                                    current_section = section
+                                if instructions is not None: self.instructions = instructions
+                                if direction is not None: self.direction = direction
+                                if summary: print(line[2:])
+                                # print("Now instructions =",instructions)
+                                # print("Now self.instructions =",self.instructions)
                             except Exception as e:
                                 if verbosity >0: 
-                                    mywarn("Undecipherable directive at line",line_number,"'"+str(line[2:])+"'");
+                                    mywarn("Undecipherable directive at line "+str(line_number)+" '"+str(line[2:])+"'");
                                     print('Error is',e)
                             
                 f.close()
-                if verbosity > 0: print("Found",len(en2es),'entries in phrasebook',"'"+filename_root+"'") 
+                if summary: print("               ",section_count," entries in this section.")
+                if summary or verbosity > 0: print("Found",len(en2es),'entries in phrasebook',"'"+filename_root+"'") 
+                if summary: exit()
                 self.en2es = en2es
                 self.es2en = es2en
                 self.es2uses = es2uses
@@ -487,6 +532,7 @@ class Testbook(object):
                 self.index_of_es = index_of_es
                 self.parts_of_speech = parts_of_speech
                 self.number = len(es2en)
+                #print("Now self.instructions at exit from testbook init=",self.instructions)
             else: myfail("No phrasebook file exists: aborting.")
 
     def __repr__(self):
@@ -536,12 +582,14 @@ def myfail(message): mywarn(message); exit()
             
 #######################################################################
 # Main program starts here
+# Options were read in above as o
 
+summary = True
 
-o = get_options()
 
 #read phrasebook
-phrasebook = Testbook(filename_root=o.phrasebook_file_root, verbosity=1)
+phrasebook = Testbook(filename_root=o.phrasebook_file_root, verbosity=0,summary=o.summary)
+#print("phrasebook.instructions after making",phrasebook.instructions)
 if phrasebook is None:  myfail("Cannot find phrasebook file.")      
 
 # Select question pool
@@ -559,14 +607,24 @@ if len(o.selected_parts_of_speech) > 0:
 if o.verbosity > 1:   print(question_pool_description)
 if len(selected_keys) == 0: myfail("No phrasebook entries satisfy criteria!")
 
+
+
 # Read the progressbook
 es2uses = read_progressbook(o.phrasebook_file_root,phrasebook.es2uses)
 if es2uses is None and o.verbosity > 0: mywarn("No progress file exists: initializing a new one.")
 
 # Instantiations of required objects
-display = InterrogatorDisplay() # Instantiate the window to use
+#print("phrasebook.instructions",phrasebook.instructions)
+display = InterrogatorDisplay(provided_instructions=phrasebook.instructions) # Instantiate the window to use
 display.question_pool_description_label.text = question_pool_description
-interrogator = Interrogator(display,phrasebook,selected_keys,es2uses,quiet = o.quiet,choice_criterion=o.choice_criterion,direction=o.qdirection) # 
+# Override some options if required by this testbook
+if phrasebook.direction == None:
+    qdirection = o.qdirection
+else:
+    qdirection = phrasebook.direction
+#print("qdirection",qdirection)
+interrogator = Interrogator(display,phrasebook,selected_keys,es2uses,quiet = o.quiet,
+choice_criterion=o.choice_criterion,direction=qdirection,time_allowed_for_question=o.waittime,time_allowed_for_answer=1.0+0.5*o.waittime) # 
 
 # Start the clock
 pyglet.clock.schedule_interval(update, update_interval)
